@@ -3,12 +3,48 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="은행아님" />
+    <meta name="description" content="진짜 은행 아닌데요. 보이스피싱이라고 적혀있는데 왜 접속하셨나요" />
+    <meta name="og:title" content="은행아님" />
+    <meta name="og:description" content="진짜 은행 아닌데요. 보이스피싱이라고 적혀있는데 왜 접속하셨나요" />
+    <meta name="og:image" content="https://xn--qj1b926asnb710a.kr/subway-ad.jpg" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
     <title>은행아님.kr</title>
+    <style>
+      html, body {
+        color: white;
+        font-family: 'Pretendard', sans-serif;
+      }
+      
+      main {
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 1em;
+        height: 100vh;
+        height: 100dvh;
+        background: url('/subway-ad.jpg') cover;
+      }
+
+      main footer {
+        position: fixed;
+        bottom: 0;
+        padding: 1rem .5rem;
+      }
+    </style>
   </head>
   <body>
     <!-- 과연 지하철에 적혀있는 광고의 URL을 실제로 접속할 사람들은 얼마나 될까요? --->
-    <img width="100%" src="/subway-ad.jpg"></img>
-
-    <a href="https://github.com/Alex4386/xn--qj1b926asnb710a.kr">소스코드</a>
+    <main>
+      <div class="jumbotron">
+        <h1>은행아님</h1>
+        <p>은행 진짜 아님</p>
+      </div>
+      
+      <!-- 도메인 보자마자 whois 돌려서 NXDOMAIN 뜨는거 보고 후딱 구매했습니다 -->
+      <footer>
+        <p>실제 보이스피싱과 다르게 본 사이트에는 별거 없습니다. <a href="https://github.com/Alex4386/xn--qj1b926asnb710a.kr">소스코드</a>.</p>
+        <p>본 웹사이트는 <a href="https://github.com">김명자 낙지마당</a>에서 호스트됩니다. V^^V</p>
+      </footer>
+    </main>
   </body>
 </html>
